@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E9ECF8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-warning {
+    font-size: 0.7rem   ;
+    color: #333;
+    display: flex;
+    align-items: center; /* Alinea el ícono y el texto verticalmente */
+    gap: 10px; /* Espacio entre el ícono y el texto */
+    margin-top: 10px;
+}
+
+.input-warning i {
+    color: #007bff; /* Color del ícono */
+    font-size: 1rem; /* Tamaño del ícono */
+}
+
+.container {
+    max-width: 1000px; /* Ajustamos el ancho para acomodar mejor el contenido */
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox para alinear en fila */
+    flex-direction: row; /* Alineación en fila */
+    justify-content: space-around; /* Espacio entre los elementos */
+    min-height: 600px;
+}
+
+textarea, .output-container {
+    width: 48%; /* Ambos elementos toman el 48% del ancho del contenedor */
+}
+
+textarea {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.output-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: flex-start; /* Alinea el botón de copiar al final del contenedor */
+}
+
+#outputImage {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin-bottom: 10px; /* Espacio entre la imagen y el mensaje */
+}
+
+
+.output-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto y el botón */
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+}
+
+.placeholder-message {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.output-text {
+    font-size: 1.5rem;
+    color: #333;
+    word-wrap: break-word;
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+}
+
+.copy-button {
+    align-self: center; /* Centra el botón horizontalmente */
+    margin-top: 20px; /* Espacio arriba del botón */
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #e7f3ff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    clear: both;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 24px; /* Tamaño del icono */
+    color: #333; /* Color del icono */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Color del icono al pasar el ratón */
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    textarea, .output-container {
+        max-width: 90%; /* Ambos elementos ocupan el ancho completo en pantallas más pequeñas */
+        width: 100%;
+    }
+    
+    .output-content {
+        flex-direction: column; /* Alinea los elementos en columna */
+        align-items: flex-start; /* Alinea el contenido a la izquierda */
+    }
+
+    .copy-button {
+        margin-top: 10px; /* Espacio encima del botón en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    .social-icons a {
+        font-size: 20px; /* Tamaño reducido del icono en pantallas pequeñas */
+    }
+}

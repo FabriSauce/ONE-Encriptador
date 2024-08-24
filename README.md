@@ -1,8 +1,8 @@
-# Encriptador de Texto
+# Encriptador de Texto - Proyecto parte del challenge del Programa ONE - G7 del 2024
 
 ## Descripción
 
-Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando reglas específicas. Es una herramienta útil para quienes buscan proteger la información de manera sencilla. La aplicación es completamente responsiva y se adapta a dispositivos móviles, tablets y pantallas de escritorio.
+Este proyecto es una aplicación web que permite encriptar y desencriptar textos utilizando reglas específicas. Es una herramienta útil para quienes buscan proteger la información de manera sencilla. La aplicación es completamente responsiva y se adapta a dispositivos móviles, tablets y pantallas de escritorio. 
 
 ## Funcionalidades
 
@@ -22,13 +22,13 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar textos
 ## Capturas de Pantalla
 
 ### Vista de Escritorio
-![Vista de Escritorio](ruta-a-tu-captura-de-escritorio.png)
+![Vista de Escritorio](images/screenshots/capEscritorio.png)
 
 ### Vista en Tablet
-![Vista en Tablet](ruta-a-tu-captura-de-tablet.png)
+![Vista en Tablet](images/screenshots/capTablet.png)
 
 ### Vista en Móvil
-![Vista en Móvil](ruta-a-tu-captura-de-movil.png)
+![Vista en Móvil](images/screenshots/capMobile.png)
 
 ## Tecnologías Utilizadas
 
@@ -43,5 +43,22 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar textos
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/encriptador-de-texto.git
+git clone https://github.com/FabriSauce/ONE-Encriptador.git
 cd encriptador-de-texto
+```
+
+### Abrir en el Navegador
+
+Simplemente abre el archivo `index.html` en tu navegador preferido para ver la aplicación en funcionamiento.
+
+### Modificaciones
+
+Puedes modificar los estilos en `styles.css` y la lógica en `script.js` según tus necesidades.
+
+## Contacto
+
+Para más información o consultas:
+
+- **Email:** [fabriciosaucedo.fs@gmail.com](mailto:fabriciosaucedo.fs@gmail.com)
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/fabricio-saucedo/)
+- **GitHub:** [GitHub](https://github.com/FabriSauce)
